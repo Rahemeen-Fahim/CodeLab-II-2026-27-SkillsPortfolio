@@ -1,2 +1,8 @@
 from tkinter import *
 
+NAVY = "#530050"
+SIDEBAR = "#263650"
+PURPLE = "#7866C8"
+LIGHT = "#F2F1F8"
+WHITE = "#FFFFFF"
+GREY = "#777777"
