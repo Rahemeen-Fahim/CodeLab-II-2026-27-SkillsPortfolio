@@ -11,7 +11,7 @@ WHITE = "#FFFFFF"
 GREY = "#777777"
 BORDER = "#DDD9EA"
 
-# Some reusable font styles
+# Some font styles that will be used throughout the interface
 FONT_TITLE = ("Arial", 26, "bold")
 FONT_SUBTITLE = ("Arial", 12)
 FONT_SECTION = ("Arial", 14, "bold")
@@ -21,7 +21,7 @@ FONT_INPUT = ("Arial", 12)
 FONT_OUTPUT = ("Consolas", 12)
 
 folder = os.path.dirname(os.path.abspath(__file__)) # Finds the folder where this Python program is saved.
-file_name = os.path.join(folder, "A1 - Resources", "studentMarks.txt") # Builds the full path to the student marks text file.
+file_name = os.path.join(folder, "A1 - Resources", "studentMarks.txt") # Builds the path to the student marks text file.
 
 students = [] #list that will hold all student records.
 
